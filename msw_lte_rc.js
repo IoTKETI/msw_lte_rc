@@ -209,7 +209,7 @@ function init() {
 
                     for (let i = 0; i < config.lib[idx].data.length; i++) {
                         let container_name = config.lib[idx].data[i];
-                        let _topic = '/MUV/data/' + config.lib[idx].name + '/' + config.name + '/' + container_name;
+                        let _topic = '/MUV/data/' + config.lib[idx].name + '/' + container_name;
                         msw_mqtt_client.subscribe(_topic);
                         msw_sub_lib_topic.push(_topic);
                         console.log('[lib_mqtt] lib_topic[' + i + ']: ' + _topic);
