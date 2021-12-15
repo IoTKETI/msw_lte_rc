@@ -2,7 +2,7 @@
   "name": "lib_lte_rc",
   "target": "armv7",
   "description": "node [name] [portnum] [baudrate]",
-  "scripts": "node lib_lte_rc /dev/ttyUSB3 115200",
+  "scripts": "node lib_lte_rc /dev/ttyUSB4 115200",
   "data": [
     "SBUS"
   ],
